@@ -1,6 +1,6 @@
 # Solver Scripts for Recruit
 
-**_Ranked 2nd in the OSIRIS RecruitCTF scoreboard_** 😄
+**_Ranked 2nd in the RecruitCTF scoreboard_** 😄
 
 **_All challenges solved except an Infra category one_** 🥲
 
