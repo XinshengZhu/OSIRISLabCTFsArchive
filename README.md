@@ -1,4 +1,4 @@
-# 031R13-CTFs-Archive
+# 031R13Archive
 A repository that archives CTFs from 031R13.
 
 **_Ranked 1st in the OffSec course CTF scoreboard_** 🥸
