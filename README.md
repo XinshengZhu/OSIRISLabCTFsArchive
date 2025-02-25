@@ -1,6 +1,6 @@
 # CTFsArchive
-A repository that archives CTFs from "031R13".
+A repository that archives CTFs from OSIRIS Lab.
 
 **_Ranked 1st in the OffSec course CTF scoreboard_** 🥸
 
-**_Ranked 2nd in the 031R13 RecruitCTF scoreboard_** 😄
+**_Ranked 2nd in the OSIRIS RecruitCTF scoreboard_** 😄
