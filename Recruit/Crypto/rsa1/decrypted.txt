@@ -1,0 +1,2 @@
+openssl pkeyutl -decrypt -inkey private_key.pem -in message.encrypted -out decrypted.txt
+flag{this_is_the_easiest_an_RSA_challenge_will_be}
