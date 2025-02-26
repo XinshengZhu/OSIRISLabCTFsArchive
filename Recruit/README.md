@@ -1,4 +1,4 @@
-# Solver Scripts for Recruit
+# Solver Scripts for RecruitCTF
 
 **_Ranked 2nd in the RecruitCTF scoreboard_** 😄
 
