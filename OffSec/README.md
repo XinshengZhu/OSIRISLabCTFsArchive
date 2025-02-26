@@ -1,6 +1,6 @@
-# Solver Scripts and Writeups for OffSec
+# Solver Scripts and Writeups for OffSecCourse
 
-**_Ranked 1st in the OffSec course CTF scoreboard_** 🥸
+**_Ranked 1st in the OffSecCourse scoreboard_** 🥸
 
 **_All challenges solved_** 🤩
 
