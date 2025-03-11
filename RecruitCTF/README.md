@@ -2,12 +2,14 @@
 
 **_Ranked 2nd in the RecruitCTF scoreboard_** 😄
 
-**_All challenges solved except an Infra category one_** 🥲
+**_All challenges solved_** 😜
 
-*Web*
+*Crypto*
 
-*Reversing*
+*Infra*
 
 *pwn*
 
-*Crypto*
+*Reversing*
+
+*Web*

