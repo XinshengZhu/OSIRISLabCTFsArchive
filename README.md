@@ -1,4 +1,4 @@
-# LabCTFsArchive
+# OSIRISLabCTFsArchive
 
 **_Ranked 1st in the OffSec course CTF scoreboard!!!_**
 
