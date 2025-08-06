@@ -8,7 +8,6 @@ p = gdb.debug('./unsafe-linking', '''
     continue
 ''')
 
-# context.timeout = 10
 # p = remote('recruit.osiris.bar', 21006)
 
 def create_note_without_secret(idx, size, data):
